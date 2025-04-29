@@ -331,8 +331,8 @@ int main() {
     traverse(root);
     printf("\n\n");
 
-    deleteKey(&root, 30);
-    printf("Traversal after deletion of 30\n");
+    deleteKey(&root, 20);
+    printf("Traversal after deletion of 20\n");
     traverse(root);
     printf("\n\n");
 
@@ -343,4 +343,3 @@ int main() {
 
     return 0;
 }
-
